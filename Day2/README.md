@@ -8,9 +8,17 @@ There are two ways to load data into the registers- either directly or through m
 RICSV uses little-endian method of memory addressing.
 
 Using memories,we can load data through various set of instruction,all of 32 bits.
+
 Some commands:
-ld x8, 16(x23)//to load a double word into the destination register x8 with offset 16 from the source register x23
+
+ld x8, 16(x23)//to load a double word into the destination register x8 with offset 16 from the source register x23.
 This command uses immediate and registers,therefore is an I Type instruction.
+
+add x8, x24,x8//to add the contents in the source registers x28 and x8 and store the result in the destination register x8.
+This command uses only registers,therefore is a I Type instruction.
+
+sd x8, 8(x23)//to store the content in source register x23 to the destination register x8
+This command uses source registers ,immediate and also performs store operation,therefore is of S Type instruction.
 
 
 //Program to calculate sum of 1 to 9 using ASM

@@ -9,6 +9,10 @@ RICSV uses little-endian method of memory addressing.
 
 Using memories,we can load data through various set of instruction,all of 32 bits.
 Some commands:
+ld x8, 16(x23)//to load a double word into the destination register x8 with offset 16 from the source register x23
+This command uses immediate and registers,therefore is an I Type instruction.
+
+
 //Program to calculate sum of 1 to 9 using ASM
 
 ![image](https://user-images.githubusercontent.com/92938137/170595215-fc64d542-5cd1-4bc3-9ef7-b733f43ade81.png)

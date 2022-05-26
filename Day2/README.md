@@ -4,6 +4,11 @@ INTRODUCTION TO ABI AND BASIC VERIFICATION FLOW
 
 Application binary interface is also called as system call interface that enables the application program to access the registers of RICSV or ARM x28 so on.
 
+There are two ways to load data into the registers- either directly or through memories.
+RICSV uses little-endian method of memory addressing.
+
+Using memories,we can load data through various set of instruction,all of 32 bits.
+Some commands:
 //Program to calculate sum of 1 to 9 using ASM
 
 ![image](https://user-images.githubusercontent.com/92938137/170595215-fc64d542-5cd1-4bc3-9ef7-b733f43ade81.png)

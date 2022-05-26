@@ -2,7 +2,7 @@ DAY2:
 
 INTRODUCTION TO ABI AND BASIC VERIFICATION FLOW
 
-Application binary interface is also called as system call interface that enables the applicatio program to access the registers of RICSV or ARM x28 so on.
+Application binary interface is also called as system call interface that enables the application program to access the registers of RICSV or ARM x28 so on.
 
 //Program to calculate sum of 1 to 9 using ASM
 

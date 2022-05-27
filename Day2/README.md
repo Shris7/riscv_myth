@@ -1,3 +1,32 @@
+DAY1:
+
+INTRODUCTION TO RISC-V ISA AND GNU COMPILER TOOLCHAIN
+
+How do apps run on a hardware?
+Apps flow through the system software which then run on hardware.
+The system software consists of operating system-handles i/o operation,memories and to convert the input or the application software to its corresponding assembly language.
+The compiler converts the high level language to a machine or assembly level language or instructions. The instructions will be in the format of which the hardware belongs to.
+Thye assembler's job is to convert the machine level language or insturctions to the binary level language which is then fed to the hardware.
+
+
+Psuedo instructions:
+
+![image](https://user-images.githubusercontent.com/92938137/170606284-edeeabd2-8eb6-4663-967f-d6902fe7cfcd.png)
+
+Base integer instruction set:
+
+![image](https://user-images.githubusercontent.com/92938137/170606167-1da353bc-25db-4724-b4cc-ec9ca105067d.png)
+
+Integer Multiply and divide Instruction set:
+
+![image](https://user-images.githubusercontent.com/92938137/170606248-bd189369-b0e2-4535-82c9-b48bf8ee35dc.png)
+![image](https://user-images.githubusercontent.com/92938137/170606266-1946da05-aa40-4fce-9cfb-f7cb21f841a0.png)
+
+
+LABWORK:
+![image](https://user-images.githubusercontent.com/92938137/170606485-c770cd7c-cf83-4c9c-b113-d3662bf53f83.png)
+
+![image](https://user-images.githubusercontent.com/92938137/170605834-6c33a3bc-178c-4d5a-b171-0b915462d3ca.png)
 DAY2:
 
 INTRODUCTION TO ABI AND BASIC VERIFICATION FLOW

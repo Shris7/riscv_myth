@@ -24,9 +24,42 @@ Integer Multiply and divide Instruction set:
 
 
 LABWORK:
-![image](https://user-images.githubusercontent.com/92938137/170606485-c770cd7c-cf83-4c9c-b113-d3662bf53f83.png)
 
+SUM 1 TO N:
+![image](https://user-images.githubusercontent.com/92938137/170606485-c770cd7c-cf83-4c9c-b113-d3662bf53f83.png)
 ![image](https://user-images.githubusercontent.com/92938137/170605834-6c33a3bc-178c-4d5a-b171-0b915462d3ca.png)
+![image](https://user-images.githubusercontent.com/92938137/170606766-5ce2cfbc-d418-4225-ba41-052d987005cd.png)
+
+![image](https://user-images.githubusercontent.com/92938137/170607112-f49cc9e7-d74a-41e3-9d95-60db42a00797.png)
+![image](https://user-images.githubusercontent.com/92938137/170607263-1c1bfcb9-f347-4551-8ccc-08560be8311b.png)
+
+No of instructions used with O1 is 15
+
+![image](https://user-images.githubusercontent.com/92938137/170607438-609fe2ad-1c6f-4048-99b6-a4770c398a3b.png)
+![image](https://user-images.githubusercontent.com/92938137/170607495-3a5806ea-6bb5-4bbb-9daa-f8d7fc7ad355.png)
+
+No of instructions with Ofast is 12
+
+UNSIGNED AND SIGNED INTEGERS
+
+![image](https://user-images.githubusercontent.com/92938137/170608156-6dffbcb2-c5cd-4c8b-9c71-f386815d6d59.png)
+![image](https://user-images.githubusercontent.com/92938137/170607954-9d248c33-e514-4f03-8403-a2fc5d9a0d5b.png)
+![image](https://user-images.githubusercontent.com/92938137/170608302-a9c9ecd0-4f01-4f32-9b65-27b25c99cedf.png)
+
+![image](https://user-images.githubusercontent.com/92938137/170608381-c6967e1f-f22a-4448-979a-0780e777e7bf.png)
+![image](https://user-images.githubusercontent.com/92938137/170608423-8d15aa3b-41b3-462f-8c9d-537e02e11ead.png)
+
+![image](https://user-images.githubusercontent.com/92938137/170608590-4c70ceb4-9eb9-4244-85b9-226ffeb3abb2.png)
+![image](https://user-images.githubusercontent.com/92938137/170608656-d0b8d1b2-33cb-423e-85a9-aca9b2d4c4d0.png)
+Lowest value of unsigned integers is 0.
+
+![image](https://user-images.githubusercontent.com/92938137/170609052-4741ad2d-8fd5-49e5-a32e-11fd67998fd0.png)
+![image](https://user-images.githubusercontent.com/92938137/170609127-9bc398e8-4ef4-41cd-8166-d502d7a64081.png)
+
+
+
+
+
 DAY2:
 
 INTRODUCTION TO ABI AND BASIC VERIFICATION FLOW

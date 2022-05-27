@@ -13,12 +13,15 @@ Some commands:
 
 ld x8, 16(x23)//to load a double word into the destination register x8 with offset 16 from the source register x23.
 This command uses immediate and registers,therefore is an I Type instruction.
+![image](https://user-images.githubusercontent.com/92938137/170602752-eea528aa-d5a7-4fda-83ef-910a8c912af1.png)
 
 add x8, x24,x8//to add the contents in the source registers x28 and x8 and store the result in the destination register x8.
-This command uses only registers,therefore is a I Type instruction.
+This command uses only registers,therefore is a R Type instruction.
+![image](https://user-images.githubusercontent.com/92938137/170602691-3e587f9c-c330-4d68-98f7-ea73f8cf33b0.png)
 
 sd x8, 8(x23)//to store the content in source register x23 to the destination register x8
 This command uses source registers ,immediate and also performs store operation,therefore is of S Type instruction.
+![image](https://user-images.githubusercontent.com/92938137/170602814-c1e5ab23-6457-4728-8038-2e940ab2d886.png)
 
 
 //Program to calculate sum of 1 to 9 using ASM

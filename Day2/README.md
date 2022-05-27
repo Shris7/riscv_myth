@@ -42,6 +42,8 @@ No of instructions with Ofast is 12
 
 UNSIGNED AND SIGNED INTEGERS
 
+Range of unsigned numbers for a double word: 0 to (2^64-1)
+
 ![image](https://user-images.githubusercontent.com/92938137/170608156-6dffbcb2-c5cd-4c8b-9c71-f386815d6d59.png)
 ![image](https://user-images.githubusercontent.com/92938137/170607954-9d248c33-e514-4f03-8403-a2fc5d9a0d5b.png)
 ![image](https://user-images.githubusercontent.com/92938137/170608302-a9c9ecd0-4f01-4f32-9b65-27b25c99cedf.png)
@@ -51,10 +53,16 @@ UNSIGNED AND SIGNED INTEGERS
 
 ![image](https://user-images.githubusercontent.com/92938137/170608590-4c70ceb4-9eb9-4244-85b9-226ffeb3abb2.png)
 ![image](https://user-images.githubusercontent.com/92938137/170608656-d0b8d1b2-33cb-423e-85a9-aca9b2d4c4d0.png)
-Lowest value of unsigned integers is 0.
+
+![image](https://user-images.githubusercontent.com/92938137/170612733-10506461-5adb-4f33-addf-05d5adfca74e.png)
+![image](https://user-images.githubusercontent.com/92938137/170612842-c92f81cd-3da4-4824-a3f7-d735c46de1e6.png)
 
 ![image](https://user-images.githubusercontent.com/92938137/170609052-4741ad2d-8fd5-49e5-a32e-11fd67998fd0.png)
 ![image](https://user-images.githubusercontent.com/92938137/170609127-9bc398e8-4ef4-41cd-8166-d502d7a64081.png)
+
+Range of signed integers: 0 to 2^63-1 for positive numbers and -1 to 2^63-1 for negative numbers
+![image](https://user-images.githubusercontent.com/92938137/170612370-9d19e764-de8a-43c0-a889-979521144c41.png)
+![image](https://user-images.githubusercontent.com/92938137/170612424-3b960718-f9f6-41b8-9d64-2fa5c3557215.png)
 
 
 

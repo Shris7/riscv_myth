@@ -9,5 +9,8 @@ Add your codes in the [calculator_solutions.tlv](calculator_solutions.tlv) and [
 DAY 3:
 DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 
+//Intorduction to makerchip IDE
+![image](https://user-images.githubusercontent.com/92938137/170808136-e4a76e87-604b-4769-83c2-1be11db23004.png)
+
 //Labs for combinational Logic
 ![image](https://user-images.githubusercontent.com/92938137/170808073-fb5f75f1-487b-453c-9b2c-8b664afbd0c1.png)

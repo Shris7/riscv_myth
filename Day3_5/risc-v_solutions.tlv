@@ -40,8 +40,6 @@
    |cpu
       @0
          $reset = *reset;
-         $pc[31:0] = >>1$reset ? 0 :
-                                 >>1$pc+32'd4;
          $imem_rd_en = !$reset;
          $imem_rd_addr[M4_IMEM_INDEX_CNT-1:0] = $pc[M4_IMEM_INDEX_CNT+1:2];
          
@@ -65,12 +63,7 @@
                       $is_u_instr ? {$instr[31:12], 12'b0} :
                       $is_j_instr ? { {12{$instr[31]} }, $instr[19:12], $instr[20] ,$instr[30:21], $instr[24:21], 1'b0} :
                       32'b0;
-         //$funct7[6:0] = $instr[31:25];
-         //$funct3[2:0] = $instr[14:12];
-         //$rs1[4:0] = $instr[19:15];
-         //$rs2[4:0] = $instr[24:20];
-         //$rd[4:0] = $instr[11:7];
-         //$opcode[6:0] = $instr[6:0];
+         
          $funct7_valid = $is_r_instr;
          ?$funct7_valid
             $funct7[6:0] = $instr[31:25];
@@ -111,9 +104,6 @@
          $rf_rd_index1[4:0] = $rs1;
          $rf_rd_en2 = $rs2_valid;
          $rf_rd_index2[4:0] = $rs2;
-         //$rf_wr_index[4:0] = 5'b0;
-         //$rf_wr_en = 1'b0;
-         //$rf_wr_data[31:0] = 32'b0;
          $src1_value[31:0] = $rf_rd_data1;
          $src2_value[31:0] = $rf_rd_data2;
          $result[31:0] = $is_addi ? $src1_value + $imm :
@@ -122,6 +112,21 @@
          $rf_wr_index[4:0] = $rd;
          $rf_wr_en = $rd_valid && $rd!=5'b0;
          $rf_wr_data[31:0] = $result;
+         $taken_br = $is_beq ? ($src1_value == $src2_value) :
+                        $is_bne ? ($src1_value != $src2_value) :
+                        $is_blt ? (($src1_value < $src2_value) ^ ($src1_value[31] != $src2_value[31])):
+                        $is_bge ? (($src1_value >= $src2_value) ^ ($src1_value[31] != $src2_value[31])):
+                        $is_bltu ? ($src1_value < $src2_value) :
+                        $is_bgeu ? ($src1_value >= $src2_value) :
+                                1'b0;
+                                
+         $br_tgt_pc[31:0] = $pc + $imm;
+      @0
+         $pc[31:0] = >>1$reset   ? '0 :
+                         >>1$taken_br ? >>1$br_tgt_pc :
+                                 >>1$pc + 32'd4 ;
+                       
+         
       // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
       //       be sure to avoid having unassigned signals (which you might be using for random inputs)
       //       other than those specifically expected in the labs. You'll get strange errors for these.

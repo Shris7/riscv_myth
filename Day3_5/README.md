@@ -14,3 +14,5 @@ DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 
 //Labs for combinational Logic
 ![image](https://user-images.githubusercontent.com/92938137/170808073-fb5f75f1-487b-453c-9b2c-8b664afbd0c1.png)
+
+//Sequential Logic

@@ -5,27 +5,21 @@
    m4_include_lib(['https://raw.githubusercontent.com/stevehoover/RISC-V_MYTH_Workshop/ecba3769fff373ef6b8f66b3347e8940c859792d/tlv_lib/calculator_shell_lib.tlv'])
 
 \SV
+   `include "sqrt32.v";
    m4_makerchip_module   // (Expanded in Nav-TLV pane.)
 
 \TLV
    |calc
-      @0
-         $reset = *reset;
-         
-         
-         // YOUR CODE HERE
-         $val1[31:0] = $rand1[3:0];
-         $val2[31:0] = $rand2[3:0];
-         $sum[31:0] = $val1[31:0] + $val2[31:0];
-         $diff[31:0] = $val1[31:0] - $val2[31:0];
-         $prod[31:0] = $val1[31:0] * $val2[31:0];
-         $quot[31:0] = $val1[31:0] / $val2[31:0];
-         $out[31:0] = $op[1:0] == 2'b00 ? $sum[31:0] :
-                    $op[1:0] == 2'b01 ? $diff[31:0] :
-                    $op[1:0] == 2'b10 ? $prod[31:0] :
-                                        $quot[31:0];
-         $val1[31:0] = >>1$out[31:0];
-         $out[31:0] = $reset ? 0 : $out[31:0];
+      
+      //Pythagoras's Theroem
+      @1
+         $aa_sq[7:0] = $aa[3:0] * $aa;
+         $bb_sq[7:0] = $bb[3:0] * $bb;
+      @2
+         $cc_sq[8:0] = $aa_sq[7:0] + $bb_sq[7:0];
+      @3
+         $cc[4:0] = sqrt($cc_sq[8:0]);
+
          
          
 
@@ -48,4 +42,3 @@
 
 \SV
    endmodule
-

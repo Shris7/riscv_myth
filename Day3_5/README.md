@@ -42,7 +42,7 @@ DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 ![image](https://user-images.githubusercontent.com/92938137/170816700-8f160ef6-88b0-4ff0-a0ea-981c1c9b8360.png)
 
 DAY 4:
-
+BASIC RISC-V CPU AND MICRO-ARCHITECTURE
 //Next PC
 ![image](https://user-images.githubusercontent.com/92938137/170819916-6c0e45e5-5112-4f4e-83d9-50112d18d7c4.png)
 
@@ -65,6 +65,30 @@ DAY 4:
 ![image](https://user-images.githubusercontent.com/92938137/170826071-a408bdca-7289-4c23-afe1-e7d7fe82f4b5.png)
 ![image](https://user-images.githubusercontent.com/92938137/170826083-677518e2-b854-44bf-bc65-e362f19be7b5.png)
 
+// Register File Read 
+![image](https://user-images.githubusercontent.com/92938137/170827535-8a329dda-bb65-4e32-9160-d5e5726d1989.png)
+![image](https://user-images.githubusercontent.com/92938137/170827542-bb6aa84b-a922-4199-ad76-c18ee975242c.png)
+![image](https://user-images.githubusercontent.com/92938137/170827546-daffaf0d-104c-4b97-978c-314f4026700e.png)
+
+//ALU for add/addi
+![image](https://user-images.githubusercontent.com/92938137/170827809-76f5288c-d27d-4df3-87df-b4a9f14ae9df.png)
+![image](https://user-images.githubusercontent.com/92938137/170828360-218de152-e8c6-4c76-b106-05e120de27ab.png)
+
+//Register file write
+![image](https://user-images.githubusercontent.com/92938137/170828336-f45793bd-a682-4251-b93a-633b3194ad5c.png)
+![image](https://user-images.githubusercontent.com/92938137/170828324-4b345f15-d386-4feb-931e-b0c3988b1b81.png)
+
+//Branch Instruction Implementation
+![image](https://user-images.githubusercontent.com/92938137/170831616-633043cc-4d56-421c-9765-c243fba67ac3.png)
+![image](https://user-images.githubusercontent.com/92938137/170831641-e4c16ed9-1ae9-4b57-b17a-ac0321a61078.png)
+![image](https://user-images.githubusercontent.com/92938137/170831679-61cd9ed8-12c1-4afa-be41-bca6be37f704.png)
+
+//TestBench
+![image](https://user-images.githubusercontent.com/92938137/170831933-eaefb266-f9ce-4220-8a5a-bb27452a5d3d.png)
+![image](https://user-images.githubusercontent.com/92938137/170831954-30d03887-d407-4e6a-81be-3b380c3ef7ec.png)
+![image](https://user-images.githubusercontent.com/92938137/170831959-ceb35c41-5b6f-45c0-b8c3-625922d6c8a2.png)
+![image](https://user-images.githubusercontent.com/92938137/170831975-4978bb3c-28eb-4734-86e8-07ecbfcff1dd.png)
+![image](https://user-images.githubusercontent.com/92938137/170831987-77d78be5-dfad-46f3-918c-021dcece3f67.png)
 
 
 

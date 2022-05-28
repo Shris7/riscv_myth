@@ -9,24 +9,28 @@
 
 \TLV
    |calc
-      @1
+      @0
          $reset = *reset;
+      @1
+         $valid_or_reset = $valid || $reset;
+         $valid[31:0] = $reset ? 0 : (>>1$valid+1);
+      ?$valid
+         @1
+            $val1[31:0] = >>2$out[31:0];
+            $val2[31:0] = $rand2[3:0];
+            $sum[31:0] = $val1[31:0] + $val2[31:0];
+            $diff[31:0] = $val1[31:0] - $val2[31:0];
+            $prod[31:0] = $val1[31:0] * $val2[31:0];
+            $quot[31:0] = $val1[31:0] / $val2[31:0];
+            
+         @2
+            $out[31:0] = $op[1:0] == 2'b00 ? $sum[31:0] :
+                         $op[1:0] == 2'b01 ? $diff[31:0] :
+                         $op[1:0] == 2'b10 ? $prod[31:0] :
+                                             $quot[31:0];
+            
+            $out[31:0] = $valid_or_reset ? $out[31:0] : 0;
          
-         
-         // YOUR CODE HERE
-         $cnt[31:0] = $reset ? 0 : >>1$cnt+1;
-         $val1[31:0] = >>1$out[31:0];
-         $val2[31:0] = $rand2[3:0];
-         $sum[31:0] = $val1[31:0] + $val2[31:0];
-         $diff[31:0] = $val1[31:0] - $val2[31:0];
-         $prod[31:0] = $val1[31:0] * $val2[31:0];
-         $quot[31:0] = $val1[31:0] / $val2[31:0];
-         $out[31:0] = $op[1:0] == 2'b00 ? $sum[31:0] :
-                    $op[1:0] == 2'b01 ? $diff[31:0] :
-                    $op[1:0] == 2'b10 ? $prod[31:0] :
-                                        $quot[31:0];
-         
-         $out[31:0] = $reset ? 0 : $out[31:0];
          
          
          

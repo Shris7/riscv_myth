@@ -6,3 +6,8 @@ Refer to README at [stevehoover/RISC-V_MYTH_Workshop](https://github.com/steveho
 
 Add your codes in the [calculator_solutions.tlv](calculator_solutions.tlv) and [risc-v_solutions.tlv](risc-v_solutions.tlv) files and **keep committing** to your repository after every lab.
 
+DAY 3:
+DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
+
+//Labs for combinational Logic
+![image](https://user-images.githubusercontent.com/92938137/170808073-fb5f75f1-487b-453c-9b2c-8b664afbd0c1.png)

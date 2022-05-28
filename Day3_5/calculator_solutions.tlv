@@ -1,9 +1,5 @@
 \m4_TLV_version 1d: tl-x.org
 \SV
-//Calculator labs solutions here
-//Labs for combinational Logic
-\m4_TLV_version 1d: tl-x.org
-\SV
    // This code can be found in: https://github.com/stevehoover/RISC-V_MYTH_Workshop
    
    m4_include_lib(['https://raw.githubusercontent.com/stevehoover/RISC-V_MYTH_Workshop/ecba3769fff373ef6b8f66b3347e8940c859792d/tlv_lib/calculator_shell_lib.tlv'])
@@ -19,12 +15,7 @@
          
          // YOUR CODE HERE
          // ...
-         $val1[31:0] = $rand1[3:0];
-         $val2[31:0] = $rand2[3:0];
-         $sum[31:0] = $val1[31:0] + $val2[31:0];
-         $diff[31:0] = $val1[31:0] - $val2[31:0];
-         $prod[31:0] = $val1[31:0] * $val2[31:0];
-         $quot[31:0] = $val1[31:0] / $val2[31:0];
+         $num[31:0] = $reset ? 1 : (>>1$num + >>2$num);
          
       // Macro instantiations for calculator visualization(disabled by default).
       // Uncomment to enable visualisation, and also,

@@ -127,7 +127,11 @@
                                  >>1$pc + 32'd4 ;
       @1
          *passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
-         
+      @0
+         $start = >>1$reset && !$reset ;
+         $valid = $reset ? 1'b0 :
+                     $start ? 1'b1 :
+                         >>3$valid;
       // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
       //       be sure to avoid having unassigned signals (which you might be using for random inputs)
       //       other than those specifically expected in the labs. You'll get strange errors for these.

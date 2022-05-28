@@ -89,7 +89,24 @@
          $opcode_valid = $is_r_instr ||$is_i_instr ||$is_u_instr ||$is_j_instr ||$is_s_instr ||$is_b_instr ;
          ?$opcode_valid
             $opcode[6:0] = $instr[6:0];
-
+         $dec_bits[10:0] = {$funct7[5],$funct3,$opcode};
+         $is_beq = $dec_bits ==?
+                   11'bx_000_1100011;
+         $is_bne = $dec_bits ==?
+                   11'bx_001_1100011;
+         $is_blt = $dec_bits ==?
+                   11'bx_100_1100011;
+         $is_bge = $dec_bits ==?
+                   11'bx_101_1100011;
+         $is_bltu = $dec_bits ==?
+                   11'bx_110_1100011;
+         $is_bgeu = $dec_bits ==?
+                   11'bx_111_1100011;
+         $is_addi = $dec_bits ==?
+                   11'bx_000_0010011;
+         $is_add = $dec_bits ==?
+                   11'bx_000_0110011;
+         `BOGUS_USE($is_beq $is_bne $is_blt $is_bge $is_bltu $is_bgeu $is_addi)
       // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
       //       be sure to avoid having unassigned signals (which you might be using for random inputs)
       //       other than those specifically expected in the labs. You'll get strange errors for these.

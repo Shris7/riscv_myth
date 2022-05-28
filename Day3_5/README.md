@@ -42,11 +42,30 @@ DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 ![image](https://user-images.githubusercontent.com/92938137/170816700-8f160ef6-88b0-4ff0-a0ea-981c1c9b8360.png)
 
 DAY 4:
+
 //Next PC
 ![image](https://user-images.githubusercontent.com/92938137/170819916-6c0e45e5-5112-4f4e-83d9-50112d18d7c4.png)
+
 //Fetch Part 1
 ![image](https://user-images.githubusercontent.com/92938137/170820048-4b62bc41-d4d3-4c6c-a0cb-5c222d9a6429.png)
-//Fetch Part 2
+
+//Fetch Part 2 and instruction type and immediate decode
+![image](https://user-images.githubusercontent.com/92938137/170824067-5bce710c-d1cb-4d12-bcb6-3013c950a7de.png)
+![image](https://user-images.githubusercontent.com/92938137/170824087-1f7f9d05-42ba-40a8-b09f-01f6fc9dce77.png)
+
+//Decoding other fields of instruction
+![image](https://user-images.githubusercontent.com/92938137/170824435-81e1e08e-2684-4bcb-a660-3522f18a0404.png)
+![image](https://user-images.githubusercontent.com/92938137/170824438-55e5c738-dce5-4767-bb69-320899632d95.png)
+
+//To Decode Instruction Field Based on Instr Type RV-ISBUJ
+![image](https://user-images.githubusercontent.com/92938137/170825404-58384194-0911-4025-ac99-f79d825faee5.png)
+![image](https://user-images.githubusercontent.com/92938137/170825416-513e433f-534f-448d-a750-4860b4bd60e4.png)
+
+//Decode individual instruction
+![image](https://user-images.githubusercontent.com/92938137/170826071-a408bdca-7289-4c23-afe1-e7d7fe82f4b5.png)
+![image](https://user-images.githubusercontent.com/92938137/170826083-677518e2-b854-44bf-bc65-e362f19be7b5.png)
+
+
 
 
 

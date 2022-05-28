@@ -42,6 +42,12 @@ DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 ![image](https://user-images.githubusercontent.com/92938137/170816700-8f160ef6-88b0-4ff0-a0ea-981c1c9b8360.png)
 
 DAY 4:
+//Next PC
+![image](https://user-images.githubusercontent.com/92938137/170819916-6c0e45e5-5112-4f4e-83d9-50112d18d7c4.png)
+//Fetch Part 1
+![image](https://user-images.githubusercontent.com/92938137/170820048-4b62bc41-d4d3-4c6c-a0cb-5c222d9a6429.png)
+//Fetch Part 2
+
 
 
 

@@ -125,7 +125,8 @@
          $pc[31:0] = >>1$reset   ? '0 :
                          >>1$taken_br ? >>1$br_tgt_pc :
                                  >>1$pc + 32'd4 ;
-                       
+      @1
+         *passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9);
          
       // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
       //       be sure to avoid having unassigned signals (which you might be using for random inputs)

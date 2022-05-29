@@ -43,6 +43,8 @@
          $pc[31:0] = >>1$reset   ? '0 :
                          >>3$valid_taken_br ? >>3$br_tgt_pc :
                          >>3$valid_load ? >>3$inc_pc :
+                         >>3$valid_jump && >>3$is_jal  ? >>3$br_tgt_pc  :
+                         >>3$valid_jump && >>3$is_jalr ? >>3$jalr_tgt_pc :
                                  >>1$inc_pc ;
          $start = >>1$reset && !$reset ;
          
@@ -165,7 +167,7 @@
                                       ? >>1$result :
                                         $rf_rd_data2;
          
-         
+         $jalr_tgt_pc[31:0] = $src1_value + $imm;
          $br_tgt_pc[31:0] = $pc + $imm;
          
       @3
@@ -210,7 +212,8 @@
                            $is_slti    ?  (($src1_value[31] == $imm[31])        ? $sltiu_rslt : {31'b0, $src1_value[31]}) :
                            $is_sra     ?  {{32{$src1_value[31]}}, $src1_value} >> $src2_value[4:0] :
                                           32'bx;
-
+         $is_jump = $is_jal || $is_jalr;
+         $valid_jump = $is_jump && $valid;
          
       @1
          *passed = |cpu/xreg[15]>>5$value == (1+2+3+4+5+6+7+8+9);

@@ -90,6 +90,11 @@ BASIC RISC-V CPU AND MICRO-ARCHITECTURE
 ![image](https://user-images.githubusercontent.com/92938137/170831975-4978bb3c-28eb-4734-86e8-07ecbfcff1dd.png)
 ![image](https://user-images.githubusercontent.com/92938137/170831987-77d78be5-dfad-46f3-918c-021dcece3f67.png)
 
+DAY 5
+
+//Three cycle validity
+![image](https://user-images.githubusercontent.com/92938137/170845738-48448eed-28e1-4f3e-8721-f59cf94513a8.png)
+![image](https://user-images.githubusercontent.com/92938137/170845742-18b9219f-7c21-43a5-997e-be2dccea8bf7.png)
 
 
 

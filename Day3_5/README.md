@@ -96,6 +96,9 @@ DAY 5
 ![image](https://user-images.githubusercontent.com/92938137/170845738-48448eed-28e1-4f3e-8721-f59cf94513a8.png)
 ![image](https://user-images.githubusercontent.com/92938137/170845742-18b9219f-7c21-43a5-997e-be2dccea8bf7.png)
 
+//3-cycle logic
+![image](https://user-images.githubusercontent.com/92938137/170850829-d3b4f1f9-2882-4035-a8a1-3aef7ca87e24.png)
+![image](https://user-images.githubusercontent.com/92938137/170850838-06615c74-d6d1-4c9c-a5f2-b299624a7240.png)
 
 
 

@@ -41,6 +41,12 @@ DIGITAL LOGIC WITH TL-VERILOG IN MAKERCHIP IDE
 ![image](https://user-images.githubusercontent.com/92938137/170816685-cb5b0b2c-abbf-4279-a199-c26e4f2f3f84.png)
 ![image](https://user-images.githubusercontent.com/92938137/170816700-8f160ef6-88b0-4ff0-a0ea-981c1c9b8360.png)
 
+//Calculator with Single Memory
+![image](https://user-images.githubusercontent.com/92938137/170878578-e173df05-4b54-4585-97a2-53a85ab28299.png)
+![image](https://user-images.githubusercontent.com/92938137/170878603-dd91531d-3e2d-4c67-b948-de07d8604c30.png)
+![image](https://user-images.githubusercontent.com/92938137/170878655-daf62abd-506e-4bf0-8a72-4086604a0bb7.png)
+
+
 DAY 4:
 BASIC RISC-V CPU AND MICRO-ARCHITECTURE
 //Next PC

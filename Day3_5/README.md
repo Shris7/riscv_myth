@@ -100,6 +100,34 @@ DAY 5
 ![image](https://user-images.githubusercontent.com/92938137/170850829-d3b4f1f9-2882-4035-a8a1-3aef7ca87e24.png)
 ![image](https://user-images.githubusercontent.com/92938137/170850838-06615c74-d6d1-4c9c-a5f2-b299624a7240.png)
 
+//Branches
+![image](https://user-images.githubusercontent.com/92938137/170869384-13b371e7-0828-4ffb-b531-739f3daadcde.png)
+![image](https://user-images.githubusercontent.com/92938137/170869393-8b5b1fb0-87d5-40be-8cff-628c3b9264c9.png)
+
+//Redirect Loads
+![image](https://user-images.githubusercontent.com/92938137/170874332-48eee3d8-d06f-4ad3-b9b0-cc92a826905a.png)
+![image](https://user-images.githubusercontent.com/92938137/170874343-97dc8e3b-1cf9-400a-ae8d-b2349a599edc.png)
+
+//Load Data
+![image](https://user-images.githubusercontent.com/92938137/170875215-a400eebb-92b6-47d8-bb1d-1295bf1bcd76.png)
+![image](https://user-images.githubusercontent.com/92938137/170875231-783e3299-b4d6-4121-9de6-afabf22c7429.png)
+
+//Instantiate the CPU Memory
+![image](https://user-images.githubusercontent.com/92938137/170875586-0f78c489-9ea1-41a7-8eaf-604f262470fc.png)
+![image](https://user-images.githubusercontent.com/92938137/170875607-1f3cf0ac-198b-4c77-b191-9b02d649460b.png)
+
+//Store / Load Data
+![image](https://user-images.githubusercontent.com/92938137/170877732-c9a4f498-4e1f-4243-874e-48d8b8665e80.png)
+
+//Jumps and RISC-V Core
+![image](https://user-images.githubusercontent.com/92938137/170878242-fdaeceaf-3029-43f8-998e-e03db4ba31fc.png)
+![image](https://user-images.githubusercontent.com/92938137/170878288-ee7a2518-5771-4542-b733-9e2d4f574a3f.png)
+![image](https://user-images.githubusercontent.com/92938137/170878311-21456611-e618-490c-a1e1-b2d05cd83f80.png)
+![image](https://user-images.githubusercontent.com/92938137/170878327-c993ae1c-86be-4fd3-90bd-19c6be8ff948.png)
+![image](https://user-images.githubusercontent.com/92938137/170878337-cff97aad-b15c-4270-b72d-a9582bf1c801.png)
+![image](https://user-images.githubusercontent.com/92938137/170878349-b5c7dd71-8c49-449a-9f48-eb558bbab25d.png)
+
+
 
 
 

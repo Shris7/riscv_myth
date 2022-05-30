@@ -159,6 +159,7 @@ The following repository contains all the information and codes that's needed to
 
 ## Sequential Logic
 - Fibbonaci Sequence
+
 ![image](https://user-images.githubusercontent.com/92938137/170912810-ff77bbc5-8d98-4173-8a91-28aa95c5ede0.png)
 ![image](https://user-images.githubusercontent.com/92938137/170808413-c62b72ac-b63e-494d-8f05-b5fdc1d6167d.png)
 - Counter
@@ -235,13 +236,13 @@ The following repository contains all the information and codes that's needed to
 ![image](https://user-images.githubusercontent.com/92938137/170824087-1f7f9d05-42ba-40a8-b09f-01f6fc9dce77.png)
 
 - To Decode Instruction Field Based on Instr Type RV-ISBUJ
-- 
+ 
 ![image](https://user-images.githubusercontent.com/92938137/170915131-362575fe-3916-4ef1-a538-79f154ba7b82.png)
 ![image](https://user-images.githubusercontent.com/92938137/170825404-58384194-0911-4025-ac99-f79d825faee5.png)
 ![image](https://user-images.githubusercontent.com/92938137/170825416-513e433f-534f-448d-a750-4860b4bd60e4.png)
 
 - Decode individual instruction
-- 
+
 ![image](https://user-images.githubusercontent.com/92938137/170915173-b85fcf80-7c98-4ad8-ba4c-35d2650ce665.png)
 ![image](https://user-images.githubusercontent.com/92938137/170826071-a408bdca-7289-4c23-afe1-e7d7fe82f4b5.png)
 ![image](https://user-images.githubusercontent.com/92938137/170826083-677518e2-b854-44bf-bc65-e362f19be7b5.png)
@@ -265,7 +266,8 @@ The following repository contains all the information and codes that's needed to
 ![image](https://user-images.githubusercontent.com/92938137/170827542-bb6aa84b-a922-4199-ad76-c18ee975242c.png)
 ![image](https://user-images.githubusercontent.com/92938137/170827546-daffaf0d-104c-4b97-978c-314f4026700e.png)
 
--Write Operation
+- Write Operation
+
 ![image](https://user-images.githubusercontent.com/92938137/170828336-f45793bd-a682-4251-b93a-633b3194ad5c.png)
 ![image](https://user-images.githubusercontent.com/92938137/170828324-4b345f15-d386-4feb-931e-b0c3988b1b81.png)
 
@@ -322,6 +324,7 @@ The following repository contains all the information and codes that's needed to
 ![image](https://user-images.githubusercontent.com/92938137/170878311-21456611-e618-490c-a1e1-b2d05cd83f80.png)
 ![image](https://user-images.githubusercontent.com/92938137/170878327-c993ae1c-86be-4fd3-90bd-19c6be8ff948.png)
 ![image](https://user-images.githubusercontent.com/92938137/170878349-b5c7dd71-8c49-449a-9f48-eb558bbab25d.png)
+
 ## Acknowledgements
 
  - [Kunal Ghosh](https://github.com/kunalg123),Co-founder VSD Corp,Pvt Ltd.

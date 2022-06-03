@@ -5,8 +5,8 @@ The following repository contains all the information and codes that's needed to
 
 
 ## Index
-- [Introduction to RISC-V ISA](https://github.com/RISCV-MYTH-WORKSHOP/riscv_myth_workshop_may22-Shris7/blob/master/README.md#intoduction-to-risc-v-isa)
-- [GNU Compliler Toolchain](https://github.com/RISCV-MYTH-WORKSHOP/riscv_myth_workshop_may22-Shris7#gnu-compiler-toolchain)
+- Introduction to RISC-V ISA
+- GNU Compliler Toolchain
 - Introduction to ABI
 - Digital Logic with TL-Verilog and Makerchip
      - Combinational Logic Calculator
